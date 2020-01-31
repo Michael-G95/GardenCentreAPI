@@ -1,0 +1,47 @@
+.searchArea{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin:auto;
+}
+
+.searchHeader{
+text-align: center;
+border-bottom: 1px solid forestgreen;
+margin-bottom: 20px;
+}
+
+.searchBar{
+    display: flex;
+    flex-direction: row;
+}
+
+.searchBar *{
+    margin:auto;
+}
+.searchBar div *{
+    margin-right: 5px;
+}
+
+.goButton{
+    display: flex;
+    height:3em;
+    min-width: 100px;
+    border:1px solid forestgreen;
+    border-radius: 5px;
+    
+}
+
+.goButton:hover{
+    box-shadow: 2px 2px gray;
+    background-color: lightgray;
+}
+.goButton span{
+    margin:auto;
+}
+
+@media only screen and (min-width:1200px){
+    .searchArea{
+        width:50%;
+    }
+}

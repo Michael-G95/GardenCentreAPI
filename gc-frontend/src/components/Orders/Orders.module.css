@@ -1,0 +1,11 @@
+.orderHome{
+    display:flex;
+    flex-direction:column;
+
+}
+@media only screen and (min-width:1200px) {
+    .orderHome {
+        width: 50%;
+        margin-left: 25%;
+    }
+}

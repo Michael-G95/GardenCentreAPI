@@ -1,0 +1,32 @@
+.errorList {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: maroon;
+    font-size: 20pt;
+    line-height: 50%;
+}
+
+@media only screen and (min-width:1200px) {
+    .errorList {
+        width: 40%;
+    }
+}
+
+.errorDismiss {
+    font-size: 10pt;
+}
+
+.errorList div {
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+    .errorList div:hover {
+        background-color: lightgray;
+        box-shadow: 2px 2px #f1f1f1;
+    }

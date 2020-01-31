@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\components",
+    "\\components\\Home",
+    "\\components\\Home\\MenuItem",
+    "\\components\\Plants",
+    "\\components\\Plants\\EditSpecificPlant",
+    "\\components\\Plants\\EditSpecificPlant\\EditPlantView",
+    "\\components\\Plants\\PlantView",
+    "\\components\\Plants\\ViewAllPlants",
+    "\\components\\Plants\\ViewSpecificPlant",
+    "\\components\\Plants\\ViewSpecificPlant\\SinglePlantView"
+  ],
+  "SelectedNode": "\\components\\Plants\\EditSpecificPlant\\EditPlantView\\EditPlantView.js",
+  "PreviewInSolutionExplorer": false
+}

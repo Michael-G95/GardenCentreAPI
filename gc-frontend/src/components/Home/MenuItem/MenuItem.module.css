@@ -1,0 +1,24 @@
+﻿.menuitem {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: maroon;
+    margin-bottom: 25px;
+    height: 125px;
+    display: flex;
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none !important;
+}
+
+.menuitem:hover{
+    box-shadow: gray -2px -2px inset;
+}
+a:visited{
+    color:whitesmoke;
+}
+
+.menuTitle{
+    margin:auto;
+}
+

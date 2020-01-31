@@ -1,0 +1,101 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid Forestgreen;
+    margin:0;
+}
+.plantView,.plantButtonRow {
+    flex:7;
+    display: flex;
+    flex-direction: column;
+    margin-left: 06%;
+    margin-right: 06%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    
+}
+
+.plantButtonRow{
+    flex:1;
+    flex-direction: row !important;
+    padding-bottom: 20px;
+    
+}
+.plantView div,.plantButtonRow div{
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+
+.plantView div:first-child{
+    flex:2;
+}
+.plantView div:nth-child(2){
+    flex:5; 
+}
+
+@media only screen and (min-width:1200px){
+    .root{
+        width:50%;
+        margin:auto;
+        flex-direction: row;
+    }
+    .plantView{
+        flex-direction: row;
+        margin:auto;
+    }
+
+    .plantView div{
+        flex-direction: column;
+        padding:0px 5px;
+    }    
+        
+    .plantView  div div:first-child{
+        padding-right: 0 !important;
+        margin-right: 5px;
+    }
+    .plantView  div div:first-child::after{
+        content:"" !important; 
+    }
+
+    .plantButtonRow{
+        width:50%;
+    }
+}
+
+
+.plantView  div div:first-child{
+    padding-right: 7px;
+}
+.plantView  div div:first-child::after{
+    content:":";
+}
+
+
+.plantItem{
+    text-align:center;
+    flex:1;
+    padding-bottom:5px;
+}
+
+.plantButton{
+    flex:1;
+    height:3em;
+    width:auto;
+    max-width:100px;
+    border:1px solid Forestgreen;
+    border-radius:3px;
+    color:forestgreen;
+    display:flex;
+    margin:auto;
+}
+
+.plantButton *{
+    margin:auto;
+}
+
+.plantButton:hover{
+    background-color:#f1f1f1;
+    box-shadow:2px 2px gray;
+}

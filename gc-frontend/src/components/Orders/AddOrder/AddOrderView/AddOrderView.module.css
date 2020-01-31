@@ -1,0 +1,68 @@
+.orderView {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid Forestgreen;
+    min-height: 50px;
+}
+.orderButtonRow {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid Forestgreen;
+}
+    .orderView div,.orderButtonRow div {
+        margin: auto;
+        flex-direction: row;
+    }
+@media screen and (min-width:1500px) {
+    .orderView,.orderButtonRow {
+        width: 75%; 
+        flex-direction: row;
+    }
+}
+
+.orderItem {
+    text-align: center;
+    flex: 1;
+    padding-bottom: 5px;
+}
+
+.orderButton {
+    flex: 1;
+    max-height:75px;
+    max-width: 150px;
+    height: 50px;
+    width:150px;
+    border: 1px solid Forestgreen;
+    border-radius: 3px;
+    color: forestgreen;
+    display: flex;
+}
+.orderButtonDanger {
+    flex: 1;
+    height: 3em;
+    width: auto;
+    max-width: 100px;
+    border: 1px solid maroon;
+    border-radius: 3px;
+    color: maroon;
+    display: flex;
+}
+
+    .orderButton *, .orderButtonDanger * {
+        margin: auto;
+    }
+
+    .orderButton:hover, .orderButtonDanger:hover {
+        background-color: #f1f1f1;
+        box-shadow: 2px 2px gray;
+    }
+
+.orderHeader {
+    text-align: center;
+}

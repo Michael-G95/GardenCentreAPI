@@ -1,0 +1,13 @@
+﻿.menuItem {
+    width: 100%;
+    background-color: forestgreen;
+    color: white;
+    display: flex;
+    text-decoration: none !important;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.menuItem p{
+    margin:auto;
+}

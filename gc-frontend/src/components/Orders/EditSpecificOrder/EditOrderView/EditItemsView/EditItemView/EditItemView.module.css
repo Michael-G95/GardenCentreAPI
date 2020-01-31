@@ -1,0 +1,44 @@
+.buttonDanger {
+    flex: 1;
+    height: 3em;
+    width: 100px;
+    max-width: 100px;
+    border: 1px solid maroon;
+    border-radius: 3px;
+    color: maroon;
+    display: flex;
+    margin: auto;
+}
+.buttonDanger * {
+    margin: auto;
+    user-select: none;
+}
+
+.buttonDanger:hover {
+    background-color: #f1f1f1;
+    box-shadow: 2px 2px gray;
+}
+
+.itemRow{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom:1px solid forestgreen;
+    width:90%;
+    margin:auto;
+    margin-bottom: 5px;
+}
+
+.itemRow:first-child{
+    flex:2 !important;
+    background-color: red !important;
+}
+
+.itemRow:nth-child(2){
+    flex:1;
+}
+@media only screen and (min-width:1300px){
+    .itemRow{
+        flex-direction: row;
+    }
+}

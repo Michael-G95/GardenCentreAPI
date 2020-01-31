@@ -1,0 +1,61 @@
+.root{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.root h1{
+    text-align: center;
+}
+
+.inputArea{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.inputArea *{
+    flex:1;
+    margin:auto;
+    text-align: center;
+}
+
+.input{
+    width:auto;
+    margin:auto;
+}
+
+
+
+
+.buttonRow {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid Forestgreen;
+    border-top: 1px solid Forestgreen;
+}
+
+.buttonContainer {
+    flex: 1;
+    height: 30px;
+    width: 100px;
+    max-width: 100px;
+    border: 1px solid forestgreen;
+    border-radius: 3px;
+    color: forestgreen;
+    display: flex;
+    margin: auto;
+}
+.buttonContainer * {
+    margin: auto;
+    user-select: none;
+}
+
+.buttonContainer:hover{
+    background-color: #f1f1f1;
+    box-shadow: 2px 2px gray;
+}

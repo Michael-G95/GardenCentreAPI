@@ -1,0 +1,9 @@
+.menu{
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;    
+}
+
+.menu *{
+    margin-bottom:10px;
+}

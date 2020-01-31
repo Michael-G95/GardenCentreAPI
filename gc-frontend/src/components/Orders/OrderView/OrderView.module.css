@@ -1,0 +1,101 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid Forestgreen;
+    margin:0;
+}
+.orderView,.orderButtonRow {
+    flex:7;
+    display: flex;
+    flex-direction: column;
+    margin-left: 06%;
+    margin-right: 06%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    
+}
+
+.orderButtonRow{
+    flex:1;
+    flex-direction: row !important;
+    padding-bottom: 20px;
+    
+}
+.orderView div,.orderButtonRow div{
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+
+.orderView div:first-child{
+    flex:2;
+}
+.orderView div:nth-child(2){
+    flex:5; 
+}
+
+@media only screen and (min-width:1200px){
+    .root{
+        width:50%;
+        margin:auto;
+        flex-direction: row;
+    }
+    .orderView{
+        flex-direction: row;
+        margin:auto;
+    }
+
+    .orderView div{
+        flex-direction: column;
+        padding:0px 5px;
+    }    
+        
+    .orderView  div div:first-child{
+        padding-right: 0 !important;
+        margin-right: 5px;
+    }
+    .orderView  div div:first-child::after{
+        content:"" !important; 
+    }
+
+    .orderButtonRow{
+        width:50%;
+    }
+}
+
+
+.orderView  div div:first-child{
+    padding-right: 7px;
+}
+.orderView  div div:first-child::after{
+    content:":";
+}
+
+
+.orderItem{
+    text-align:center;
+    flex:1;
+    padding-bottom:5px;
+}
+
+.orderButton{
+    flex:1;
+    height:3em;
+    width:auto;
+    max-width:100px;
+    border:1px solid Forestgreen;
+    border-radius:3px;
+    color:forestgreen;
+    display:flex;
+    margin:auto;
+}
+
+.orderButton *{
+    margin:auto;
+}
+
+.orderButton:hover{
+    background-color:#f1f1f1;
+    box-shadow:2px 2px gray;
+}

@@ -1,0 +1,38 @@
+.root{
+    flex:4;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.itemGroup{
+    flex:1;
+    margin:0 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.item{
+    flex:1;
+}
+
+@media only screen and (min-width:1300px){
+    .root{
+        flex-direction: row;
+    }
+
+    .itemGroup{
+        margin:0 0 0 0;
+        flex-direction: column;
+    }
+    .item{
+        margin:auto;
+    }
+}
+
